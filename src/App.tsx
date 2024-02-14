@@ -1,7 +1,11 @@
-import "./App.css";
+import Card from "./components/Card";
 
 function App() {
-	return <h1 className="text-3xl font-bold underline">Hello world!!</h1>;
+	return (
+		<div className="bg-black h-lvh grid place-items-center">
+			<Card />
+		</div>
+	);
 }
 
 export default App;
