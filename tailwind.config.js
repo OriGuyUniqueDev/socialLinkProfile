@@ -12,7 +12,6 @@ export default {
 		fontFamily: {
 			sans: ["Inter", "sans-serif"],
 		},
-		fontSize: {},
 		extend: {},
 	},
 	plugins: [],
