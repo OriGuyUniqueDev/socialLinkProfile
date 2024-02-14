@@ -34,7 +34,7 @@ const Buttons: FunctionComponent<ButtonsProps> = () => {
 			<Button
 				social1={"CV"}
 				icon1={faFile}
-				link={"src\\Assets\\Ori Guy Resume.pdf"}
+				link={"@\\Assets\\Ori Guy Resume.pdf"}
 				downloadable={true}
 			/>
 		</div>
