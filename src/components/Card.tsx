@@ -1,4 +1,5 @@
 import { FunctionComponent } from "react";
+import Buttons from "./buttons/Buttons";
 import CardTop from "./cardTop/CardTop";
 
 interface CardProps {}
@@ -13,6 +14,7 @@ const Card: FunctionComponent<CardProps> = () => {
 				country={"Israel"}
 				moto={"Always Evolve"}
 			/>
+			<Buttons />
 		</div>
 	);
 };
