@@ -8,7 +8,7 @@ const Card: FunctionComponent<CardProps> = () => {
 	return (
 		<div className="bg-dark-gray rounded-xl w-[23.25rem] sm:w-[24rem] h-[36.1875rem] sm:h-[38.1875rem] py-6 sm:py-10 px-6 sm:px-10 ">
 			<CardTop
-				photoURL={"@\\Assets\\profilePic.jpg"}
+				photoURL={"/profilePic.jpg"}
 				name={"Ori Guy"}
 				city={"Beer Sheva"}
 				country={"Israel"}
